@@ -1,0 +1,14 @@
+[package]
+name = "serpent_blame_py"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "serpent_blame"
+crate-type = ["cdylib"]
+
+[dependencies]
+
+[dependencies.pyo3]
+version = "0.27.1"
+features = ["extension-module"]

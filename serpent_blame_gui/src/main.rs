@@ -18,9 +18,9 @@ fn main() -> eframe::Result {
         ..Default::default()
     };
     eframe::run_native(
-        "eframe template",
+        "Serpent Blame",
         native_options,
-        Box::new(|cc| Ok(Box::new(serpent_blame::TemplateApp::new(cc)))),
+        Box::new(|cc| Ok(Box::new(serpent_blame_gui::TemplateApp::new(cc)))),
     )
 }
 
